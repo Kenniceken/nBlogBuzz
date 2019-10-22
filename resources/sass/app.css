@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: ~@fortawesome/fontawesome-free/scss/brands.
+       Load path: C:/laragon/www/igbokwe/resources/sass
+        on line 3 of app.scss
+
+1: // Fonts
+2: @import url('https://fonts.googleapis.com/css?family=Nunito');
+3: @import '~@fortawesome/fontawesome-free/scss/brands';
+4: @import '~@fortawesome/fontawesome-free/scss/regular';
+5: @import '~@fortawesome/fontawesome-free/scss/solid';
+6: @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+7: 
+8: 
+
+Backtrace:
+app.scss:3
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/RailsInstaller/Ruby1.9.3/bin/sass:23:in `load'
+C:/RailsInstaller/Ruby1.9.3/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ~@fortawesome/fontawesome-free/scss/brands.\A        Load path: C:/laragon/www/igbokwe/resources/sass\A         on line 3 of app.scss\A \A 1: // Fonts\A 2: @import url('https://fonts.googleapis.com/css?family=Nunito');\A 3: @import '~@fortawesome/fontawesome-free/scss/brands';\A 4: @import '~@fortawesome/fontawesome-free/scss/regular';\A 5: @import '~@fortawesome/fontawesome-free/scss/solid';\A 6: @import '~@fortawesome/fontawesome-free/scss/fontawesome';\A 7: \A 8: "; }
